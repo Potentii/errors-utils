@@ -1,7 +1,7 @@
 /**
  * Standardized error representation.
  */
-export declare class CodeError extends Error {
+declare class CodeError extends Error {
 
 	/**
 	 * Error code.
@@ -52,7 +52,7 @@ export declare class CodeError extends Error {
 /**
  * Builder for constructing CodeError instances.
  */
-export declare class CodeErrorBuilder {
+declare class CodeErrorBuilder {
 
 	/**
 	 * Error code.

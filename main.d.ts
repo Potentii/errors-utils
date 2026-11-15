@@ -1,4 +1,5 @@
-import {CodeError, CodeErrorBuilder} from "./libs/code-error";
+import CodeError from "./libs/code-error";
 
-export type {CodeErrorBuilder};
-export {CodeError};
+export {
+	CodeError
+};

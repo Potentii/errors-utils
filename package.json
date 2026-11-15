@@ -1,45 +1,39 @@
 {
-  "name": "@potentii/errors-utils",
-  "version": "1.0.2",
-  "description": "Utils for dealing with errors",
-  "author": "Guilherme Reginaldo Ruella <potentii@gmail.com>",
-  "license": "MIT",
-
-  "main": "main.mjs",
-  "types": "main.d.ts",
-
-  "type": "module",
-
-  "exports": {
-    ".": {
-      "import": "./main.mjs",
-      "types": "./main.d.ts"
-    }
-  },
-
-  "scripts": {
-  },
-
-  "files": [
-    "main.mjs",
-    "libs/**/*",
-    "README.md",
-    "LICENSE"
-  ],
-  "keywords": [
-    "error",
-    "exception",
-    "utils"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Potentii/errors-utils.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Potentii/errors-utils/issues"
-  },
-  "homepage": "https://github.com/Potentii/errors-utils#readme"
+	"name": "@potentii/errors-utils",
+	"version": "1.0.3",
+	"description": "Utils for dealing with errors",
+	"author": "Guilherme Reginaldo Ruella <potentii@gmail.com>",
+	"license": "MIT",
+	"main": "main.mjs",
+	"types": "main.d.ts",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./main.mjs",
+			"types": "./main.d.ts"
+		}
+	},
+	"files": [
+		"main.mjs",
+		"main.d.ts",
+		"libs/**/*",
+		"README.md",
+		"LICENSE"
+	],
+	"keywords": [
+		"error",
+		"exception",
+		"utils"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Potentii/errors-utils.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Potentii/errors-utils/issues"
+	},
+	"homepage": "https://github.com/Potentii/errors-utils#readme"
 }
